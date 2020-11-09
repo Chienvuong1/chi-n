@@ -1,0 +1,12 @@
+.luckyNumber{
+    border: 2px black;
+    text-align: center;
+    box-shadow: 0 0 1px black;
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 200px;
+}
+.title{
+    background-color: brown;
+    color: white;
+}
