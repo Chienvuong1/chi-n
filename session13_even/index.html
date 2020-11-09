@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Even
+
+    <h1 onclick="helloWord()">Hello word</h1>
+    <h2 id="title">the h2</h2>
+
+    Nhập tên: <input id="inputName" onkeypress="enterLogin()" placeholder="admin" type="text" >
+    <br>
+    Nhập pass: <input id="pass" onkeypress="enterLogin(event, this) " placeholder="password" type="password" >
+    <button onclick="welcome(event , this)">Click me</button>
+
+    Nhập: <input id="txtphoneName" onkeypress="enterLogin()" type="text">
+    <button onclick="addPhones()">Them</button>
+    <ul id="Listphone">
+        <li>
+
+        </li>
+    </ul>
+
+    <script src="even.js"></script>
+</body>
+</html>
