@@ -1,0 +1,13 @@
+.display-grid{
+    display: grid;
+    display: flex;
+}
+.display-grid .imgs{
+flex: 30%;
+}
+.imgs{
+    grid-row: 30px;
+}
+.imgs img{
+    width: 30px;
+}
